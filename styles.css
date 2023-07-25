@@ -1,0 +1,44 @@
+.whiteAnchor {
+    color: white;
+}
+
+.whiteAnchor:hover {
+    color: gray;
+}
+
+a.whiteAnchor.active {
+    color: gray;
+}
+
+
+text:hover {
+    color: gray;
+}
+
+.about {
+    background-image: url(about.jpg);
+}
+
+.creative {
+    background-image: url(creative.jpg);
+}
+.tutor {
+    background-image: url(tutor.jpg);
+}
+img.zoom:hover {
+    transform: scale(1.1)
+}
+
+div.img {
+    overflow: hidden;
+}
+
+
+img.zoom {
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+}
+
+img.zoom:hover {
+    transform: scale(1.1);
+}
