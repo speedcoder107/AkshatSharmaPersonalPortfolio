@@ -42,3 +42,26 @@ img.zoom {
 img.zoom:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width:766px){
+    .headerAbout{
+        display:none;
+        text-align: center;
+    }
+    .headerLife{
+        display:none;
+        text-align: center;
+    }
+    .headerMemories{
+        display:none;
+        text-align: center;
+    }
+    .headerResume{
+        display:none;
+        text-align: center;
+    }
+    .headerConnect{
+        display:none;
+        text-align: center;
+    }
+}
