@@ -5,17 +5,18 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
     })
 
-    if (window.innerWidth <= 984) {
+    // if (window.innerWidth <= 984) {
         document.querySelector('.headerbutton').addEventListener('click', function (event) {
-            document.querySelector('.headerAbout').style.display = 'block';
-            document.querySelector('.headerLife').style.display = 'block';
-            document.querySelector('.headerMemories').style.display = 'block';
-            document.querySelector('.headerResume').style.display = 'block';
-            document.querySelector('.headerConnect').style.display = 'block';
-            event.preventDefault();
+            // if (document.querySelector('.headerAbout').style.display == 'none') {
+                document.querySelector('.headerAbout').style.display = 'block';
+                document.querySelector('.headerLife').style.display = 'block';
+                document.querySelector('.headerMemories').style.display = 'block';
+                document.querySelector('.headerResume').style.display = 'block';
+                document.querySelector('.headerConnect').style.display = 'block';
+                event.preventDefault();
+            // }
         })
-    }
-
+    // }
 
     document.querySelector('.grtweet').addEventListener('mouseout', function (event) {
         document.querySelector('#whiteTwitter').style.display = 'inline';
