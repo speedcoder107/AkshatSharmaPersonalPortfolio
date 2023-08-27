@@ -44,10 +44,19 @@ img.zoom:hover {
 }
 .headercross{
     display:none;
-    text-align:center
+    text-align:center;
+}
+
+.headerbutton{
+    display:none;
 }
 
 @media only screen and (max-width:766px){
+
+    .headerbutton{
+        display:block;
+    }
+    
     .headerAbout{
         display:none;
         text-align: center;
