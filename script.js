@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
     })
 
-    if (window.innerWidth <= 984) {
+
         document.querySelector('.headerbutton').addEventListener('click', function (event) {
             document.querySelector('.headerAbout').style.display = 'block';
             document.querySelector('.headerLife').style.display = 'block';
@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.headercross').style.display = 'none';
             event.preventDefault();
         })
-    }
 
     document.querySelector('.grtweet').addEventListener('mouseout', function (event) {
         document.querySelector('#whiteTwitter').style.display = 'inline';
