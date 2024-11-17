@@ -1,10 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.grtweet').addEventListener('mouseover', function (event) {
-        document.querySelector('#whiteTwitter').style.display = 'none';
-        document.querySelector('#grayTwitter').style.display = 'inline'
-        event.preventDefault();
-    })
-
 
         document.querySelector('.headerbutton').addEventListener('click', function (event) {
             document.querySelector('.headerAbout').style.display = 'block';
@@ -28,29 +22,20 @@ document.addEventListener('DOMContentLoaded', function () {
             event.preventDefault();
         })
 
-    document.querySelector('.grtweet').addEventListener('mouseout', function (event) {
-        document.querySelector('#whiteTwitter').style.display = 'inline';
-        document.querySelector('#grayTwitter').style.display = 'none'
-        event.preventDefault();
-    })
-    document.querySelector('.grface').addEventListener('mouseover', function (event) {
-        document.querySelector('#whiteFacebook').style.display = 'none';
-        document.querySelector('#grayFacebook').style.display = 'inline'
-        event.preventDefault();
-    })
-    document.querySelector('.grface').addEventListener('mouseout', function (event) {
-        document.querySelector('#whiteFacebook').style.display = 'inline';
-        document.querySelector('#grayFacebook').style.display = 'none'
-        event.preventDefault();
-    })
-    document.querySelector('.grinsta').addEventListener('mouseover', function (event) {
-        document.querySelector('#whiteInsta').style.display = 'none';
-        document.querySelector('#grayInsta').style.display = 'inline'
-        event.preventDefault();
-    })
-    document.querySelector('.grinsta').addEventListener('mouseout', function (event) {
-        document.querySelector('#whiteInsta').style.display = 'inline';
-        document.querySelector('#grayInsta').style.display = 'none'
-        event.preventDefault();
-    })
+        function addHoverEffect(className, whiteID, grayID) {
+            document.querySelector(className).addEventListener('mouseover', function () {
+                document.querySelector(whiteID).style.display = 'none';
+                document.querySelector(grayID).style.display = 'inline-block';
+            });
+        
+            document.querySelector(className).addEventListener('mouseout', function () {
+                document.querySelector(whiteID).style.display = 'inline-block';
+                document.querySelector(grayID).style.display = 'none';
+            });
+        }
+        
+        addHoverEffect('.grGithub', '#whiteGithub', '#grayGithub');
+        addHoverEffect('.grMail', '#whiteMail', '#grayMail');
+        addHoverEffect('.grlinkdin', '#whiteLinkdin', '#grayLinkdin');
+        
 })
