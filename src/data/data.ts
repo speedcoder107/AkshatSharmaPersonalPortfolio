@@ -15,10 +15,11 @@ export const personalInfo = {
   interests: [],
   // interests: ["Logic Puzzles", "Cardistry", "Scientific Visualization", "Mentorship"],
   highlights: [
-    // { title: "Mentorship", detail: "Rooted in STEM Lead Mentor" },
-    // { title: "Inspiration", detail: "Research discussion with Bill Unruh" },
-    // { title: "Leadership", detail: "SMART Commons Peer Tutor Lead" }
-  ]
+    { title: "Mentorship", detail: "Rooted in STEM Lead Mentor" },
+    { title: "Puzzle solving", detail: "Solving Rubick's Cubes" },
+    { title: "Reading", detail: "Current Favorite Book: Recusion by Blake Crouch" }
+  ],
+  // highlight: {title: string; detail: string }[] = []
 };
 
 export const education = [
