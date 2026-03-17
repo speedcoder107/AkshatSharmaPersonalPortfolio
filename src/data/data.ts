@@ -6,7 +6,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/akshat-sharma-physics/",
   github: "https://github.com/speedcoder107",
   location: "College Park, Maryland",
-  shortBio: "I am a PhD student at the University of Maryland, focusing on Quantum Information Science. My passion lies in solving challenging problems whether through physics, code, or logic puzzles.",
+  shortBio: "I am a PhD student at the University of Maryland, focusing on Quantum Information Science. My passion lies in solving challenging problems whether through physics, code, or puzzles.",
 
   about: [
     "Hi, my name is Akshat. I am currently a PhD student in physics at the University of Maryland, College Park. My research focuses on Quantum Information Science.",
