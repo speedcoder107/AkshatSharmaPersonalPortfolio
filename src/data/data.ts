@@ -32,7 +32,7 @@ export const education = [
     degree: "Bachelor of Science in Physics (Honors)",
     institution: "University of Minnesota - Twin Cities",
     period: "Sept 2021 - May 2025",
-    details: "Minors in Computer Science & Mathematics."
+    details: "Minors in Computer Science & Mathematics. Advisor: Prof. James Kakalios, Prof. Jorge Viñals."
   }
 ];
 
