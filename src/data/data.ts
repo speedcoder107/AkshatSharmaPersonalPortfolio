@@ -8,15 +8,16 @@ export const personalInfo = {
   location: "College Park, Maryland",
   shortBio: "I am a PhD student at the University of Maryland, focusing on Quantum Information Science. My passion lies in solving challenging problems—whether through physics, code, or logic puzzles.",
   about: [
-    "Physics to me is not just a subject, but a way of thinking. I love dissecting complex systems, which explains my dual passion for theoretical physics and computational modeling. My journey to the US was driven by this curiosity—a leap into a new world that shaped my adaptability and resolve as a scientist.",
-    "During my time at the University of Minnesota, I discovered that true mastery of physics comes from teaching. Whether it was tutoring at the SMART Learning Commons or lead mentoring through 'Rooted in STEM,' I've always been captivated by the 'aha!' moment when a complex concept suddenly clicks for a student.",
-    "Now at UMD, I am diving deep into Quantum Dimer Models and emergent phases of matter under Prof. Victor Galitski. My goal is to bridge the gap between abstract quantum theory and practical computational applications—finding the 'logic puzzles' hidden within the fabric of the universe."
+    "Hi, my name is Akshat. I am currently a PhD student in physics at the University of Maryland, College Park. My research focuses on Quantum Information Science.",
+    "During my time at the University of Minnesota, I discovered that I thrive from teaching. Whether it was tutoring at the SMART Learning Commons or lead mentoring through 'Rooted in STEM,' I've always been captivated by the 'aha!' moment when a complex concept suddenly clicks for a student.",
+    "Now at UMD, I am leaning into Quantum Dimer Models and emergent phases of matter under Prof. Victor Galitski. I am fascinated by these new ideas realted to quantum materials and the potential they hold for future technologies. And I am excited to continue sharing my love of physics with others"
   ],
-  interests: ["Logic Puzzles", "Cardistry", "Scientific Visualization", "Mentorship"],
+  interests: [],
+  // interests: ["Logic Puzzles", "Cardistry", "Scientific Visualization", "Mentorship"],
   highlights: [
-    { title: "Mentorship", detail: "Rooted in STEM Lead Mentor" },
-    { title: "Inspiration", detail: "Research discussion with Bill Unruh" },
-    { title: "Leadership", detail: "SMART Commons Peer Tutor Lead" }
+    // { title: "Mentorship", detail: "Rooted in STEM Lead Mentor" },
+    // { title: "Inspiration", detail: "Research discussion with Bill Unruh" },
+    // { title: "Leadership", detail: "SMART Commons Peer Tutor Lead" }
   ]
 };
 
