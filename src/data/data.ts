@@ -32,7 +32,7 @@ export const education = [
     degree: "Bachelor of Science in Physics (Honors)",
     institution: "University of Minnesota - Twin Cities",
     period: "Sept 2021 - May 2025",
-    details: "Minors in Computer Science & Mathematics. Summa Cum Laude. GPA: 3.82/4.0."
+    details: "Minors in Computer Science & Mathematics."
   }
 ];
 
