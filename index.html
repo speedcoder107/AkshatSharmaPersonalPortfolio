@@ -1,99 +1,16 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <link href="styles.css" rel="stylesheet">
-  <script src="script.js"></script>
-  <title>Akshat Sharma's Webpage</title>
-</head>
-
-<body>
-  <header class="site-header bg-co text-bg-dark sticky-top py-1">
-    <nav class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="headerbutton py-4 whiteAnchor" aria-label="Product">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
-                viewBox="0 0 24 24">
-                <title>Product</title>
-                <circle cx="12" cy="12" r="10"></circle>
-                <path
-                    d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
-                </path>
-            </svg>
-        </a>
-        <a class="headercross py-4 whiteAnchor" aria-label="Product">
-          <svg fill="none" stroke="currentColor" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm0 10.293l5.293-5.293.707.707-5.293 5.293 5.293 5.293-.707.707-5.293-5.293-5.293 5.293-.707-.707 5.293-5.293-5.293-5.293.707-.707 5.293 5.293z"/></svg>
-        <a id = 'about' class="headerAbout nav-link py-4 whiteAnchor active" href="#"><text>about me</text></a>
-        <a class="headerLife nav-link py-4 whiteAnchor" href="myLife.html"><text>My life</text></a>
-        <a class="headerMemories nav-link py-4 whiteAnchor" href="oldMemories.html"><text>Old memories</text></a>
-        <a class="headerResume nav-link py-4 whiteAnchor" href="resume.html"><text>Resume</text></a>
-    </nav>
-</header>
-<main>
-    <div class="position-relative overflow-hidden p-3 text-center bg-body-tertiary about">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 fw-normal text-light">Hi There...</h1>
-        <p class="lead fw-normal text-light">My name is Akshat. I am a Programmer, teacher and working on some creative
-          ideas.</p>
-      </div>
-      <div class="product-device shadow-sm d-none d-md-block"></div>
-      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-    </div>
-    <img src="Akshat.jpg" class=" zoom img-thumbnail rounded float-start mt-5 mx-5 mb-2 p-0" alt="..." style="height:400px">
-    <span class="mx-5" style="height:400px">
-      <p class="mx-5 mt-3 pt-5">Hey there, I'm Akshat! I'm currently a student at the University of Minnesota, studying
-        physics, computer science, and mathematics. My ultimate goal is to become a physicist, and I'm excited to see
-        where this journey takes me.</p>
-
-      <p class="mx-5"> When I'm not hitting the books, you can usually find me tutoring my peers at the SMART Learning
-        Commons. Helping others understand complex math and physics concepts is incredibly rewarding for me, and I love
-        seeing the "aha" moments when things click for them. In my free time, I'm a huge puzzle fanatic and enjoy
-        solving logical problems. I'm also an avid reader and enjoy diving into a good book. And, if you catch me in the
-        right mood, I might even show off some of my cardistry skills!
-      </p>
-      <p class="mx-5"> I'm a passionate, curious, and driven individual who is always seeking to learn and grow. I can't
-        wait to see what the future holds for me!
-      </p>
-      <p class="mx-5"> I want to give a huge thank you to everyone who has supported me along my educational and
-        professional journey.
-        I wouldn't be where I am today without my professors, supervisors, mentors, friends, and family.
-        todaloo!!!
-      </p> 
-    </span>
-
-
-  </main>
-
-  <footer
-  class="d-flex flex-wrap text-bg-dark justify-content-between align-items-center py-3 border-top" style='width:100%'>
-  <div class="col-md-4 d-flex align-items-center">
-    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-      <svg class="bi" width="30" height="24">
-        <use xlink:href="#bootstrap"></use>
-      </svg>
-    </a>
-  </div>
-
-  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mx-5">
-    <li class="ms-3"><a class="grGithub text-body-secondary" href="https://github.com/speedcoder107" target="_blank"><img class="bi" width="24" height="24"
-          id="whiteGithub" src="whiteGithub.png"><img class="bi" id="grayGithub" width="24" height="24"
-          src="grayGithub.png" style="display:none"></a></li>
-    <li class="ms-3"><a class="grlinkdin text-body-secondary" href="https://www.linkedin.com/in/akshat-sharma-physics/" target="_blank"><img class="bi" width="24" height="24"
-          id="whiteLinkdin" src="whiteLinkdin.png"><img class="bi" id="grayLinkdin" width="24" height="24"
-          src="grayLinkdin.png" style="display:none"></a></li>
-    <li class="ms-3"><a class="grMail text-body-secondary" href="mailto:aksharmaldh1947@gmail.com" target="_blank"><img class="bi" width="24" height="24"
-        id="whiteMail" src="whiteMail.png"><img class="bi" id="grayMail" width="24" height="24"
-        src="grayMail.png" style="display:none"></a></li>
-  </ul>
-</footer>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshat Sharma | Quantum Physics & Computation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&family=Fira+Code&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
